@@ -2,7 +2,7 @@
   "name": "greet_person_api",
   "version": "1.0.0",
   "main": "server.js",
-  "proxy": "http://localhost:3300/",
+  "proxy": "http://localhost:3000/",
   "scripts": {
     "start": "node server.js"
   },
