@@ -1,0 +1,17 @@
+{
+  "name": "greet_person_api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "proxy": "http://localhost:3300/",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
