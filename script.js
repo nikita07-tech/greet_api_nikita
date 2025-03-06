@@ -6,7 +6,7 @@ if(!name){
     return;
 }
 //making the api request
-fetch(`http://localhost:3300/api/greet?name=${name}`)
+fetch(`http://localhost:3000/api/greet?name=${name}`)
 .then(response => response.json())
 .then(data => {
     if(data.message){
